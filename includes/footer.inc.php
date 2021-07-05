@@ -104,6 +104,7 @@
   <div style="position: fixed; bottom: 15px; right: 15px; background-color: #f10369; color: #fff; padding: 12px; font-family: inherit; z-index: 999999">
     <a href="tel:0526309349" style="text-decoration: none; color: #fff;">שִׂיחָה 0526309349</a>
   </div>
+   
 </footer>
 
 
@@ -391,5 +392,6 @@
     }
   });
   // });
+ 
 </script>
 

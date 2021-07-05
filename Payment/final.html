@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment|Gateway</title>
+</head>
+
+<body>
+
+  <form method="post" id="bitform" action="https://sandbox.meshulam.co.il/api/light/server/1.0/createPaymentProcess/">
+
+    <input type="hidden" name="pageCode" value="a7eaf004bfef">
+    <input type="hidden" name="userId" value="56c09c134111815c">
+    <input type="hidden" name="sum" value=100>
+    <input type="hidden" name="successUrl" value="localhost/justc/Git/tamilpool/tamilpool/payment/success.php">
+    <input type="hidden" name="cancelUrl" value="localhost/justc/Git/tamilpool/tamilpool/payment/failed.php">
+    <input type="hidden" name="[fullName]" value="saurav">
+    <input type="hidden" name="pageField[phone]" value="9875641524">
+    <input type="submit">
+  </form>
+
+</body>
+
+</html>
